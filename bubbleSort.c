@@ -1,4 +1,4 @@
-void bubblesort(int *array, int length)
+int *bubblesort(int *array, int length)
 {
     int i, j, tmp;
 
@@ -14,4 +14,5 @@ void bubblesort(int *array, int length)
             }
         }
     }
+    return array;
 }
