@@ -1,10 +1,10 @@
-### Übungsblatt 21
+## Übungsblatt 21
 
 Allgemeiner Hinweis: Implementieren Sie für alle Ihre Lösungen einen Dialog-Test, auch wenn dies
 bei einzelnen Aufgaben nicht explizit in der Aufgabenstellung genannt ist. Der Test sollte so gestaltet
 sein, dass die Funktionsweise Ihres Programms bei der Abnahme gut nachvollzogen werden kann.
 
-## 1. Aufgabe
+### 1. Aufgabe
 (a) Implementieren sie zwei Funktions-Bibliotheken zur Berechnung einfacher physikalischer Formeln.
 Die Bibliotheken sollen auf einfache Art und Weise wiederverwendbar sein. Teilen Sie dazu
 Deklaration und Implementierung in unterschiedliche Dateien auf. Definieren Sie Ihre eigenen
@@ -27,7 +27,7 @@ Mit: v := Geschwindigkeit, a := Beschleunigung, p := Impuls, s := Weg, t := Zeit
 (b) Implementieren Sie ein interaktives Testprogram, welches Ihre Bibliotheken einbindet und
 testet.
 
-## 2. Aufgabe
+### 2. Aufgabe
 Bubblesort ist ein einfach zu implementierender Sortieralgorithmus. Der Pseudocode des Algorithmus sieht wie folgt aus:
 ```
 procedure bubbleSort( A : list of sortable items ) defined as:
