@@ -1,16 +1,17 @@
-void bubblesort(int *array, int length)
+void bubblesort(int *array[])
 {
+    int length = sizeof(array) / sizeof(array[0]);
     int i, j, tmp;
 
     for (i = 1; i < length; i++)
     {
         for (j = 0; j < length - 1; j++)
         {
-            if (array[j] > array[j + 1])
+            if (*array[j] > *array[j + 1])
             {
-                tmp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = tmp;
+                tmp = *array[j];
+                *array[j] = *array[j + 1];
+                *array[j + 1] = tmp;
             }
         }
     }
