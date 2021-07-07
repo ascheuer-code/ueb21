@@ -1,6 +1,6 @@
 void bubblesort(int *array[])
 {
-    int length = sizeof(array) / sizeof(array[0]);
+    int length = sizeof(*array) / sizeof(*array[0]);
     int i, j, tmp;
 
     for (i = 1; i < length; i++)
